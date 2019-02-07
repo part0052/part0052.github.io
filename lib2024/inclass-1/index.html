@@ -1,37 +1,49 @@
+<!DOCTYPE html>
 <html>
-<title></title>
 <head>
-<meta charset="utf-18">
+	<title>TITLE</title>
+	<meta charset="utf-8">
 </head>
+
 <body>
-<header>
-<h2>First Heading</h2>
-</header>
-<navigation>
-<ol>
-<LI>
-	<a link="https://algonquincollege.com">Algonquin</a>
-</LI>
-<LI>
-	<a link="https://algonquincollege.com" target="blank">Alognquin in new Tab</a>
-</LI>
-<LI>
-	<a link="https://algonquincollege.com"></a>
-</LI>
-</ol>
-</navigation>
-<main>
-<section>
-<h1>Second Heading</h1>
-<p><b>Bold Text</p></b>
-</section>
-<section>
-	<aside>This is the main part of section</aside>
-	<article>This is the less important part of section</article>
-</section>
-<main>
+	
+	<header id="header">
+		<h1>First Heading</h1>
+	<nav id="navigation-section" class="navigation">
+		<ol>
+			<li id="li-1" class="navigation list">
+				<a href="https://algonquincollege.com">Algonquin</a>
+			</li>
+			<li id="li-2" class="navigation list">
+				<a href="https://algonquincollege.com" target="_blank">Alognquin in new Tab</a>
+			</li>
+			<li id="li-3" class="navigation list">
+				<a href="https://algonquincollege.com" title="Algonquin College" target="_blank">Algonquin with name and in new tab</a>
+			</li>
+		</ol>
+	</nav>
+	</header>
+
+	<main id="main">
+		<section id="main-section-1" class="main-section">
+		<h2>Second Heading</h2>
+			<p><b>Bold Text</b></p>
+		</section>
+		<section id="main-section-2" class="main-section">
+			<article>
+				<p>This is the main part of section</p>
+			</article>
+			<aside>
+				<p>This is the less important part of section</p>
+			</aside>
+		</section>
+	</main>
+
+	<footer id="footer">
+		<div>
+			<span>Footer Text</span>
+		</div>
+	</footer>
+
 </body>
-<footer>
-	<span><div>Footer Text</div></span>
-</footer>
 </html>
